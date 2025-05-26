@@ -12,7 +12,7 @@ const App = () =>{
         
         <button onClick={() => SetCounter((prevCount) => prevCount-1)}>-</button>
         <h1>{counter}</h1>
-        <button>+</button>
+        <button onClick={() => SetCounter((prevCount) => prevCount+1)}>+</button>
         <h1>
           Hey Hi !!!
         </h1>
